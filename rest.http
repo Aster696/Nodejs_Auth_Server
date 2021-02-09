@@ -1,5 +1,5 @@
 GET http://localhost:5700/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MTIxNzY3MTQsImV4cCI6MTYxMjE3Njc0NCwiYXVkIjoiNjAxNmIwZDY5YWI1Y2M0MDNjZWFjMzE4IiwiaXNzIjoiQXN0ZXIuY29tIn0.hg8XnbaNPyXqoQES1iSSIdVcZUXi1D2rgKHnlPYK3cg
+Authorization: Bearer xx.yy.zz
 
 ###Error route
 Get http://localhost:5700/abc
@@ -9,8 +9,8 @@ POST http://localhost:5700/user/register
 Content-Type: application/json
 
 {
-    "email": "aster@gmail.com",
-    "password": "aster"
+    "email": "",
+    "password": ""
 }
 
 ###login route
@@ -18,8 +18,8 @@ POST http://localhost:5700/user/login
 Content-Type: application/json
 
 {
-    "email": "alister@gmail.com",
-    "password": "alister"
+    "email": "",
+    "password": ""
 }
 
 ###refresh token route
@@ -27,7 +27,7 @@ POST http://localhost:5700/user/refresh-token
 Content-Type: application/json
 
 {
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MTIzMzUzNDQsImV4cCI6MTY0Mzg5Mjk0NCwiYXVkIjoiNjAxNmIwZDY5YWI1Y2M0MDNjZWFjMzE4IiwiaXNzIjoiQXN0ZXIuY29tIn0.nu4XCJl30LAnpsBpyPAWNL0PdQ_BeytvGltFaeFZuFM"
+    "refreshToken": ""
 }
 
 ###logout route
@@ -35,5 +35,5 @@ DELETE http://localhost:5700/user/logout
 Content-Type: application/json
 
 {
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MTIzMzUzOTEsImV4cCI6MTY0Mzg5Mjk5MSwiYXVkIjoiNjAxNmIwZDY5YWI1Y2M0MDNjZWFjMzE4IiwiaXNzIjoiQXN0ZXIuY29tIn0.bJ4TZtGhqJHbGWH41lYTQFH0CrlBPO11dyuUiyI7sVA"
+    "refreshToken": ""
 }
